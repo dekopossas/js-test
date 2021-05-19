@@ -8,7 +8,7 @@ async function validate(req, res, next) {
     return res.sendStatus(401);
   }
 
-  //não faço ideia do que essa linha faz
+  //não faço ideia do que essa linha faz ref: https://www.youtube.com/watch?v=AClyxTbfI08
   const [, token] = authorization.split(' ');
 
   try {
