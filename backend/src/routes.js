@@ -16,7 +16,7 @@ router.post('/authenticate', (req, res) => {
 
   return res.json({
     user,
-    token: jwt.sign(user, 'PRIVAREKEY'),
+    token: jwt.sign(user, 'PRIVATEKEY'),
   })
 });
 
